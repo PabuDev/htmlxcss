@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@font-face {
+    font-family: "Lion";
+    src: url(fonts/lion_king.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Saudagar';
+    src: url(fonts/Saudagar.ttf) format(truetype);
+    font-weight: bolder;
+    font-style: normal;
+}
+
+*{
+    background-attachment: fixed;
+    font-family: 'Saudagar';
+    font-weight: bolder;
+    text-align: justify;
+}
+
+body{
+    background-image: linear-gradient(180deg, #1F0802, #02060D);
+}
+
+main{
+    width: 1000px;
+    background-color: #CEF09D;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 2px #9fba7989;
+    text-align: center;
+    border-radius: 10px; 
+}
+
+.two-main{
+    width: 1000px;
+    background-color: #CEF09D;
+    margin: auto;  
+    padding: 10px;
+    box-shadow: 5px 5px 10px 2px #9fba7989;
+    text-align: center;
+    border-radius: 10px; 
+}
+
+h1.titulo-principal{
+    font: bold 3.5em "Lion"; 
+    text-align: center;
+    color: #38184C ;
+    text-shadow: 5px 5px 10px 3px #210d2dab;
+    background-color: #a0cd6048;
+}
+h2.titulo-secundario{
+    font: 2.5em 'Lion';
+    color: #38184C;
+    text-align: center;
+    background-color: #a0cd6048;
+
+}
+h3.titulo-terciario{
+    font: bolder 1.5em 'Saudagar';
+    color: #1C646D;
+    text-decoration: underline;
+}
+
+p{
+    text-indent: 25px;
+}

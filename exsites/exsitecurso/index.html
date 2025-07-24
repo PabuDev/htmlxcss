@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso.io</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="titulo-principal">
+        <header>
+            <h1 class="cabecalho-principal">Cursos Online</h1>
+        </header>
+    </section>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Ajuda</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2 class="two-titulo">Curso em Vídeo</h2>
+        </section>
+        <article>
+            <header>
+                <h3 class="tree-titulo">Curso de <abbr title="HyperText Markup Language">HTML</abbr> x <abbr title="Cascading Style Sheets">CSS</abbr> </h3>
+            </header>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="imgs/htmlxcss-300px.png" type="image/png">
+                    <source media="(max-width: 1000px)" srcset="imgs/htmlxcss-600px.png" type="image/png">
+                    <img src="imgs/htmlxcss-1000px.png" alt="imagens da logo HTMLxCSS">
+                </picture>
+            <p>
+                Seja muito bem-vindo ao Módulo 01 do Curso de HTML5 e CSS3 do Curso em Vídeo! Neste primeiro passo da sua jornada no mundo do desenvolvimento web, você vai construir uma base sólida, compreendendo os conceitos essenciais que sustentam a criação de sites modernos e bem estruturados. <a href="cursohtmlxcss.html" target="_self">Saiba mais</a>
+            </p>
+            <script>
+                var paragrado1 = window.document.getElementsByTagName('p')[0] 
+                paragrado1.style.color = '#0C1A59'
+            </script>
+        </article>
+    </main>
+    <section>
+        <header>
+            <h2 class="two-titulo">Outros Cursos</h2>
+        </header>
+        <div>
+            <article>
+                <header>
+                    <h3 class="tree-titulo">JavaScript</h3>
+                </header>
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="imgs/javascript-300px.png" type="image/png">
+                        <source media="(max-width: 1000px)" srcset="imgs/javascript-300px.png" type="image/png">
+                        <img src="imgs/javascript-600px.png" alt="Logo JavaScript">
+                    </picture>
+                <p>
+                    Você quer aprender a programar e não sabe por onde começar? Ou já tentou dar os primeiros passos na programação, mas ficou perdido ao escolher uma linguagem? O Curso em Vídeo tem a solução perfeita para você: um curso completo, gratuito e 100% online de JavaScript, uma das linguagens mais populares e utilizadas no mundo! <a href="cursojs.html" target="_self">Saiba mais</a>
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h3 class="tree-titulo">Python</h3>
+                </header>
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="imgs/python-300.png" type="image/png">
+                        <source media="(max-width: 1000px)" srcset="imgs/python-300.png" type="image/png">
+                        <img src="imgs/python-600.png" alt="Logo Python">
+                    </picture>
+                    <p> 
+                        O curso gratuito <strong>Python 3</strong> é o ponto de partida perfeito para quem deseja entrar no universo da programação e começar uma jornada em uma das linguagens mais populares do mundo. Este curso foi pensado para ser acessível a qualquer pessoa, independentemente de conhecimento prévio em programação. A ideia principal é apresentar Python de forma prática e envolvente, facilitando o aprendizado mesmo para aqueles que nunca tiveram contato com a área de TI. <a href="cursopython.html">Saiba mais</a>
+                    </p>
+            </article>
+        </div>
+    </section>
+</body>
+</html>

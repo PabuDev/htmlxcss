@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semântica Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td,th{
+            border: 1px solid black;
+            
+        }
+        
+        tbody > tr:nth-child(even){
+            background-color: rgb(198, 215, 199);
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(28, 167, 40);
+        }
+
+        td.num{
+            text-align: right;
+        }
+        tr.color{
+            background-color: rgb(28, 167, 40);
+            color: rgb(255, 255, 255);
+        }
+        caption{
+            font-size: 1.3em;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            background: rgb(190, 189, 189);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <table>
+        <caption>População dos Estados do Brasil</caption>
+        <thead>
+            <tr class="color">
+                <th style="width: 50px;">Posição</th>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="num">1</td>
+                <td>São Paulo </td>
+                <td class="num">45 973 194</td>
+            </tr>
+            <tr>
+                <td class="num">2</td>
+                <td>Minas Gerais </td>
+                <td class="num">21 322 691</td>
+            </tr>
+            <tr>
+                <td class="num">3</td>
+                <td>Rio de Janeiro </td>
+                <td class="num">17 219 679</td>
+            </tr>
+            <tr>
+                <td class="num">4</td>
+                <td>Bahia </td>
+                <td class="num">14 850 513</td>
+            </tr>
+            <tr>
+                <td class="num">5</td>
+                <td>Paraná </td>
+                <td class="num">11 824 665</td>
+            </tr>
+            <tr>
+                <td class="num">6</td>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 229 915</td>
+            </tr>
+            <tr>
+                <td class="num">7</td>
+                <td>Pernambuco </td>
+                <td class="num">9 539 029</td>
+            </tr>
+            <tr>
+                <td class="num">8</td>
+                <td>Ceará </td>
+                <td class="num">9 233 656</td>
+            </tr>
+            <tr>
+                <td class="num">9</td>
+                <td>Pará </td>
+                <td class="num">8 664 306</td>
+            </tr>
+            <tr>
+                <td class="num">10</td>
+                <td>Santa Catarina </td>
+                <td class="num">8 058 441</td>
+            </tr>
+            <tr>
+                <td class="num">11</td>
+                <td>Goiás </td>
+                <td class="num">7 350 483</td>
+            </tr>
+            <tr>
+                <td class="num">12</td>
+                <td>Maranhão </td>
+                <td class="num">7 010 960</td>
+            </tr>
+            <tr>
+                <td class="num">13</td>
+                <td>Amazonas </td>
+                <td class="num">4 281 209</td>
+            </tr>
+            <tr>
+                <td class="num">14</td>
+                <td>Paraíba </td>
+                <td class="num">4 145 040</td>
+            </tr>
+            <tr>
+                <td class="num">15</td>
+                <td>Espíto Santo </td>
+                <td class="num">3 833 712</td>
+            </tr>
+            <tr>
+                <td class="num">16</td>
+                <td>Mato Grosso </td>
+                <td class="num">3 836 399</td>
+            </tr>
+            <tr>
+                <td class="num">17</td>
+                <td>Rio Grande do Norte </td>
+                <td class="num">3 446 071</td>
+            </tr>
+            <tr>
+                <td class="num">18</td>
+                <td>Piauí </td>
+                <td class="num">3 375 646</td>
+            </tr>
+            <tr>
+                <td class="num">19</td>
+                <td>Alagoas </td>
+                <td class="num">3 220 104</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="color">
+                <th colspan="2" scope="row"> Total da População</th>
+                <td class="num"><strong> xxxx</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

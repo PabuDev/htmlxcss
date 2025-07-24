@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+
+*{
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+body{
+    background-image: linear-gradient(180deg, #2E4559, #02060D);
+}
+
+main{
+    width: 600px;
+    background-color: #68788C;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 2px #4b5664;
+    text-align: center;
+    border-radius: 10px; 
+}
+
+.two-main{
+    width: 600px;
+    background-color: #68788C;
+    margin: auto;  
+    padding: 10px;
+    box-shadow: 5px 5px 10px 2px #4b5664;
+    text-align: center;
+    border-radius: 10px; 
+}
+
+h1{
+    font: bolder 3em "Dosis"; 
+    text-align: center;
+    color: #0B1C26 ;
+    text-shadow: 10px 10px 3px 3px #060f15ac;
+}
+
+h2, h3{
+    font: bolder 2em "Dosis";
+    color: #0B1C26;
+}

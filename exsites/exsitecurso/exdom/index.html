@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex Dom</title>
+    <style>
+        body{
+            background-color: #2b9270;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        div#area{
+            background-color: #091fe6;
+            height: 150px;
+            width: 150px;
+            font-size: 1.5em;
+            text-align: center;
+            line-height: 150px; 
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="titulo-importante">Primeiro passo para DOM</h1>
+    <p>DOM é <strong>Document Object Model</strong></p>
+    <p>O DOM é um conjunto de objetos dentro do navegador<br> 
+    que dar acesso aos componentes internos do <strong>website</strong></p>
+
+    <div id="area">
+        Área
+    </div>
+    <script>
+        corpo = window.document.querySelector('body')
+        titulo = window.document.querySelector('h1#titulo-importante')
+
+        corpo.style.color = "#ffffff"
+
+        var a = window.document.querySelector('div#area')
+
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mousemove', mover)
+        a.addEventListener('mouseout', sair)
+
+        function entrar(){
+            a.style.background = '#FA2D3E'
+            a.style.color = '#FFFFFF'
+            a.innerText = 'Área'
+        }
+
+        function mover(){
+            a.style.background = '#FA2D3E'
+            a.style.color = '#FFFFFF'
+            a.innerText = 'Área'
+        }
+        
+        function clicar(){
+            a.innerText = 'Clicou'
+            a.style.background = '#FFFFFF'
+            a.style.color = '#FA2D3E'
+        }
+
+        function sair(){
+            a.style.color = '#FFFFFF'
+            a.style.background = '#091fe6'
+            a.innerText = 'Área'
+        }
+        </script>
+</body>
+</html>

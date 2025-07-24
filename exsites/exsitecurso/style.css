@@ -1,0 +1,89 @@
+@charset "URF-8";
+/* Declarando o tipo de fonte i,portada */
+@font-face {
+    font-family: 'Merri';
+    src: url(fonts/Merriweather-VariableFont_opsz\,wdth\,wght.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    background-attachment: fixed;
+}
+
+body{
+    font-family: 'Merri', Arial, Helvetica, sans-serif;
+}
+/* Menu */
+.menu{
+    margin: -10px 0px 0px -20px;   
+}
+
+li > a{
+    text-decoration: none;
+    color: #0C1A26;
+}
+
+li > a:hover{
+    color: #F2594B;
+    text-decoration: underline;
+}
+
+li > a:visited{
+    color: #F22613;
+}
+
+li > a:active{
+    color: #0C1A26;
+    background-color: #F2594B;
+}
+
+section.titulo-principal{
+    background-color: #048C7F;
+    height: 80px;
+    width: 100%;
+}
+
+.cabecalho-principal{
+    font:bold 3em 'Merri';
+    color: #ffffff;
+    margin: 0 0 0 10px; /* top - right - botton - left*/
+    padding: 15px 2px 2px 10px;
+}
+
+.two-titulo{
+    font: 400 2em 'Merri';
+    color:#048C7F;
+}
+
+main{
+    background-color: #f2f2f2; 
+    width: 100%;
+}
+
+a{
+    color: #F22613;
+}
+
+a:hover{
+    color:#048C7F;
+}
+
+a:active{
+    color: #F22613;
+    background-color: #048C7F;
+}
+
+.tree-titulo{
+    font:normal 1.4em 'Merri';
+    color:#F22613;
+}
+
+p{
+    text-align: justify;
+    text-indent: 10px;
+}
+
+abbr{
+    text-decoration: none;
+}

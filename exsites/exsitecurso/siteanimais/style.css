@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Merri';
+    src: url(fonts/Merriweather-Italic-VariableFont_opsz\,wdth\,wght.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal
+}
+
+body{
+    font-family: 'Merri';
+    text-align: justify;
+}
+
+#cabecalho-principal{
+    font-size: 1.5em;
+    background-color: #0C7D74;
+    color: #FFFFFF;
+    width: 1000px;
+    height: 60px;
+}
+
+p{
+    text-indent: 20px;
+}

@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(__MACOSX/fontes/idroid.otf) format(opentype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+body{
+    background-color: #84E1AD;
+}
+
+header.cabecalho{
+    background-image: linear-gradient(180deg, #39CE7C, #1A5C38);
+    text-align: center;
+    margin: -20px -8px;
+    height: 150px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.444);
+}
+
+h1.titulo-principal{
+    font: normal 2em 'Arial';
+    color: #FFFFFF; 
+    padding: 25px 0px 2px 0px;
+    margin: 0px;
+}
+
+p.paragrafo-cabecalho{
+    color: #FFFFFF;
+}
+
+nav.menu{
+    background-color: #1d653e;
+    text-align: left;
+    padding: 2px 0px 0px 20px;
+    height: 20px;   
+    margin-top: -5px;
+}
+
+a.link{
+    text-decoration: none;
+    color: #057035;
+    font-weight: bold;
+}
+
+a.link:hover{
+    text-decoration: underline;
+}
+
+nav > a{
+    color: #FFFFFF;
+    margin: 0px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover{
+    background-color: #103b23;
+    text-decoration: underline;
+}
+
+main{
+    background-color: #FFFFFF;
+    width: 1000px;
+    margin: 20px auto 0px auto;
+    box-shadow: 2px 2px 2px #0000006d;
+}
+
+h2.titulo-font{
+    font: normal 1.5em 'idroid';
+    color: #1d653e;
+    padding: 5px 0px 0px 10px; 
+}
+
+p.paragrafo-texto{
+    text-indent: 20px;
+    text-align: justify;
+    padding: 0px 10px;
+}
+
+h3.titulo-font{
+    font: normal 1.2em 'idroid';
+    color: #1d653e;
+    padding: 5px 0px 0px 10px; 
+    background-color: #9be4ba7a;
+}
+
+aside.extra{
+    background-color: #C5EBD6;
+    width: 900px;
+    height: 350px;
+    margin: auto;
+    border-radius: 10px 10px 3px 3px;
+    box-shadow: 2px 2px 2px #0000006c;
+}
+
+
+header.cabecalho-extra{
+    background-color: #2FA866;
+    height: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h4.titulo-extra{
+    color: #FFFFFF;
+    padding: 5px 0px 1px 5px;
+}
+
+footer{
+    background-color: #1A5C38;
+    text-align: center;
+}
+
+div.img-alinhamento{
+    text-align: center;
+}
+
+
+div.fundo-video{
+    background-color: #1A5C38;
+}
+

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Joti';
+    src: url(fontes/Joti_One/JotiOne-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url(fontes/Merriweather/Merriweather-Italic-VariableFont_opsz\,wdth\,wght.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Oswald' ;
+    src: url(fontes/Oswald/Oswald-VariableFont_wght.ttf) format(truetype);
+}
+
+h1.titulo-one{ /* Título principal */
+    font:bold 3em 'Joti';
+    color:#ecca5c; 
+    margin: 0px 0px 0px 10px; 
+    padding: 0px 0px 10px 100px
+}
+
+h2.titulo-two{
+    font: bold 2em "Oswald";
+    padding: 0px 0px 0px 10px; 
+    height: 10px;
+    margin: 5px 0px 40px 0px; 
+}
+
+h5#titulo-sobre{
+    font: normal 1.5em "Times";
+    padding: 5px 0px 2px 10px; 
+    height: 10px;
+    text-align: left;
+}
+
+p{
+    text-align: justify;
+    text-indent:30px;
+    padding: 0px 5px 0px 5px; 
+    font: normal 0.9em 'Oswald';
+}
+
+ul {
+    font: normal 0.9em 'Oswald';
+    text-align: justify;
+}
+
+nav > a{
+    text-decoration: none;
+    font: bold 1.2em 'Oswald';
+    margin: 0px 30px;
+    color: #D9CB9E;
+}
