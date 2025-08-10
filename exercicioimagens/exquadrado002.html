@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento posição</title>
+    <style>
+        body{
+            background-image: linear-gradient(to bottom, #bfcef4, #62b6ff);
+            background-attachment: fixed;
+        }
+        .background{
+            box-shadow: 2px 2px 8px #00000074;
+            height: 150px;  
+            margin: 20px; 
+            border-radius: 20px;
+            background-image: url('imagens/wallpaper002.jpg');
+        } 
+        div#q1{
+            background-position: left top; 
+        }
+        div#q2{
+            background-position: left center; 
+        }
+        div#q3{
+            background-position: center center; 
+        }
+        div#q4{
+            background-position: right bottom; 
+        }
+    </style>
+</head>
+<body>
+    <div class="background" id="q1"></div>
+    <div class="background" id="q2"></div>
+    <div class="background" id="q3"></div>
+    <div class="background" id="q4"></div>
+</body>
+</html>
