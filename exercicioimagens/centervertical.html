@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização Vertical</title>
+    <style>
+        #container{
+            position: relative;
+            height: 96vh;
+            background-color:aquamarine;
+        }
+        #content{
+            height: 400px;
+            width: 700px;
+            background-color: blueviolet;
+            
+            position: absolute;
+
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+        }
+        h1{
+            text-align: center;
+        }
+        .texto1{
+            position: absolute;
+            height: 200px;
+            width: 300px;
+            top: 20%;
+            left: 20%; 
+            
+            transform: translate(-40%, -20%); 
+        }
+
+        .texto2{
+            position: absolute;
+            height: 200px;
+            width: 300px;
+            top: 40%;
+            left: 40%;  
+            
+            transform: translate( 35%, -60%);
+        }
+        p{
+            color: white;
+            font-size: 1.2em;
+            text-align: justify;
+        }
+        img{
+            height: 200px;
+            width: 300px;
+        }
+        div#img{
+            position:absolute;
+            height: 200px;
+            width: 300px;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -5%);
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="content">
+            <h1>Centralização Vertical</h1>
+            <p class="texto1">
+                Este exemplo demonstra como centralizar verticalmente um conteúdo dentro de uma página HTML. A centralização é feita utilizando CSS Flexbox, que é uma técnica moderna e eficiente para layout.
+            </p>
+            <p class="texto2">
+                O conteúdo é colocado dentro de um contêiner que ocupa toda a altura da janela do navegador, e o Flexbox é usado para alinhar o conteúdo no centro verticalmente.
+            </p>
+            <div id="img">
+                <img src="imagens/wallpaper002.jpg" alt="Imagem de exemplo">
+            </div>
+        </article>
+    </section>
+</body>
+</html>
